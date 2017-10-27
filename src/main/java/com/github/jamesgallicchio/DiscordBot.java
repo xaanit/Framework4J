@@ -9,4 +9,8 @@ public class DiscordBot {
     public DiscordBot(IDiscordClient client) {
         CLIENT = client;
     }
+
+    public IDiscordClient getClient() {
+        return CLIENT;
+    }
 }
