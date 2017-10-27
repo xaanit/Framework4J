@@ -4,7 +4,7 @@ import sx.blah.discord.api.IDiscordClient;
 
 public class DiscordBot {
 
-    public final IDiscordClient CLIENT;
+    private final IDiscordClient CLIENT;
 
     public DiscordBot(IDiscordClient client) {
         CLIENT = client;
